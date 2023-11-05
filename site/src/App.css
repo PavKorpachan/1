@@ -1,0 +1,82 @@
+#sleep {
+    width: 17%;
+    height: 17%;
+    cursor: pointer;
+}
+#sph1, #sph2, #sph3 {
+    border-radius: 100%;
+    background-color:#006BBB;
+    height: 40px;
+    width: 40px;
+    border: 0px;
+}
+#mag {
+    border-radius: 300%;
+    background-color:#006BBB;
+    height: 33px;
+    width: 33px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#ds {
+    background-color:#006BBB;
+    height: 30px;
+    width: 30px;
+    border-radius: 30%;
+    cursor: pointer;
+}
+#tg {
+    background-color:#006BBB;
+    height: 25px;
+    width: 25px;
+    margin-top:4px ;
+    cursor: pointer;
+}
+#all_sph {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 350px;
+}
+#inf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #383838;
+    padding: 20px 0px;
+    align-items: center;
+}
+#elips {
+    border-radius: 60px;
+    background-color: #000;
+    height: 40px;
+    width: 230px; 
+    background: #006BBB;
+    border: 0px;
+    margin-right: 100px;
+    color: #fff;
+    font-size: 21px;
+    cursor: pointer;
+}
+#elips:hover {
+    animation-name: ip;
+    animation-duration: 0.5s; 
+    background: #0057A1; 
+}
+@keyframes ip {
+    0% {
+    background: #006BBB;
+}
+    100% {
+    background: #0057A1;  
+    }
+}
+#elips_div {
+    display: flex;
+    justify-content: end;
+    width: 350px;
+}
+
+* {
+    background:#272727 ;
+}
